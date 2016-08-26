@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" ng-app="LocationFinder">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Location Finder app</title>
+
+    <!-- need to change these to local -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/app.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.angularjs.org/1.5.0-rc.0/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.5.0-rc.0/angular-route.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyCqykw3PCrky_M5n6YQ8qZhGiFlTiHy40c"></script>
+
+    <script src="app.js"></script>
+	<script src="directives/landing-page--directive.js"></script>
+	<script src="services/search-locations--service.js"></script>
+	<script src="services/current-location--service.js"></script>
+	<script src="services/location-details--service.js"></script>
+
+  </head>
+
+  <body bgcolor="black" class="container-fluid">
+
+
+	<div ng-view></div>
+
+
+
+  </body>
+ </html>

@@ -1,0 +1,1 @@
+This uses the google RESTful API to detect and search the places based on zip codes.
